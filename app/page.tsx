@@ -7,12 +7,7 @@ export default function HomePage() {
       <div className="bg-gradient-to-br from-gray-900 to-gray-800 text-white">
         <nav className="max-w-5xl mx-auto px-6 py-5 flex justify-between items-center">
           <span className="text-xl font-bold">Menu App</span>
-          
-            href="#contact"
-            className="text-sm bg-white text-gray-900 px-4 py-2 rounded-lg font-medium hover:bg-gray-100"
-          >
-            Get Started
-          </a>
+          <a href="#contact" className="text-sm bg-white text-gray-900 px-4 py-2 rounded-lg font-medium hover:bg-gray-100">Get Started</a>
         </nav>
 
         <div className="max-w-5xl mx-auto px-6 py-24 text-center">
@@ -26,21 +21,14 @@ export default function HomePage() {
             and a beautiful menu your customers can browse on their phone.
           </p>
           <div className="mt-10 flex justify-center gap-4">
-            
-              href="#contact"
-              className="bg-green-500 hover:bg-green-600 text-white px-8 py-3.5 rounded-lg font-semibold text-lg"
-            >
-              Get Your Menu Live
-            </a>
+            <a href="#contact" className="bg-green-500 hover:bg-green-600 text-white px-8 py-3.5 rounded-lg font-semibold text-lg">Get Your Menu Live</a>
           </div>
         </div>
       </div>
 
       {/* How it Works */}
       <div className="max-w-5xl mx-auto px-6 py-20">
-        <h2 className="text-3xl font-bold text-center mb-16">
-          How it works
-        </h2>
+        <h2 className="text-3xl font-bold text-center mb-16">How it works</h2>
         <div className="grid md:grid-cols-3 gap-12">
           <div className="text-center">
             <div className="w-16 h-16 bg-green-50 rounded-2xl flex items-center justify-center mx-auto mb-5">
@@ -48,8 +36,7 @@ export default function HomePage() {
             </div>
             <h3 className="font-semibold text-lg mb-2">1. Add your menu</h3>
             <p className="text-gray-500 text-sm leading-relaxed">
-              Open the app, type in your dishes, prices, and upload photos from
-              your phone camera. That&apos;s it.
+              Open the app, type in your dishes, prices, and upload photos from your phone camera. That&apos;s it.
             </p>
           </div>
           <div className="text-center">
@@ -58,8 +45,7 @@ export default function HomePage() {
             </div>
             <h3 className="font-semibold text-lg mb-2">2. Customize your brand</h3>
             <p className="text-gray-500 text-sm leading-relaxed">
-              Add your logo, pick your brand color, write a tagline. Your menu
-              page looks like yours, not ours.
+              Add your logo, pick your brand color, write a tagline. Your menu page looks like yours, not ours.
             </p>
           </div>
           <div className="text-center">
@@ -68,8 +54,7 @@ export default function HomePage() {
             </div>
             <h3 className="font-semibold text-lg mb-2">3. Print the QR code</h3>
             <p className="text-gray-500 text-sm leading-relaxed">
-              Generate a QR code, print it, stick it on your tables. Customers
-              scan and see your full menu instantly.
+              Generate a QR code, print it, stick it on your tables. Customers scan and see your full menu instantly.
             </p>
           </div>
         </div>
@@ -78,9 +63,7 @@ export default function HomePage() {
       {/* Features */}
       <div className="bg-gray-50 py-20">
         <div className="max-w-5xl mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-16">
-            Everything you need, nothing you don&apos;t
-          </h2>
+          <h2 className="text-3xl font-bold text-center mb-16">Everything you need, nothing you don&apos;t</h2>
           <div className="grid md:grid-cols-2 gap-8">
             {[
               {
@@ -95,7 +78,7 @@ export default function HomePage() {
               },
               {
                 title: 'Veg / Non-veg markers',
-                desc: 'Clear green and red indicators on every item. Your customers know exactly what they\'re ordering.',
+                desc: 'Clear green and red indicators on every item. Your customers know exactly what they are ordering.',
                 icon: '🟢',
               },
               {
@@ -114,17 +97,10 @@ export default function HomePage() {
                 icon: '📲',
               },
             ].map((feature) => (
-              <div
-                key={feature.title}
-                className="bg-white p-6 rounded-xl border border-gray-100"
-              >
+              <div key={feature.title} className="bg-white p-6 rounded-xl border border-gray-100">
                 <span className="text-2xl">{feature.icon}</span>
-                <h3 className="font-semibold text-lg mt-3 mb-2">
-                  {feature.title}
-                </h3>
-                <p className="text-gray-500 text-sm leading-relaxed">
-                  {feature.desc}
-                </p>
+                <h3 className="font-semibold text-lg mt-3 mb-2">{feature.title}</h3>
+                <p className="text-gray-500 text-sm leading-relaxed">{feature.desc}</p>
               </div>
             ))}
           </div>
@@ -133,12 +109,8 @@ export default function HomePage() {
 
       {/* Pricing */}
       <div className="max-w-5xl mx-auto px-6 py-20">
-        <h2 className="text-3xl font-bold text-center mb-4">
-          Simple pricing
-        </h2>
-        <p className="text-center text-gray-500 mb-12">
-          Start free. Upgrade when you need more.
-        </p>
+        <h2 className="text-3xl font-bold text-center mb-4">Simple pricing</h2>
+        <p className="text-center text-gray-500 mb-12">Start free. Upgrade when you need more.</p>
         <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
           <div className="border border-gray-200 rounded-2xl p-8">
             <h3 className="font-semibold text-lg">Free</h3>
@@ -152,17 +124,15 @@ export default function HomePage() {
             </ul>
           </div>
           <div className="border-2 border-green-500 rounded-2xl p-8 relative">
-            <span className="absolute -top-3 left-6 bg-green-500 text-white text-xs font-medium px-3 py-1 rounded-full">
-              Popular
-            </span>
+            <span className="absolute -top-3 left-6 bg-green-500 text-white text-xs font-medium px-3 py-1 rounded-full">Popular</span>
             <h3 className="font-semibold text-lg">Pro</h3>
             <p className="text-3xl font-bold mt-2">₹299<span className="text-base font-normal text-gray-400">/mo</span></p>
             <p className="text-gray-400 text-sm mt-1">per restaurant</p>
             <ul className="mt-6 space-y-3 text-sm text-gray-600">
               <li>✓ Everything in Free</li>
               <li>✓ Multiple outlets</li>
-              <li>✓ Custom brand colors & logo</li>
-              <li>✓ Offers & discounts</li>
+              <li>✓ Custom brand colors and logo</li>
+              <li>✓ Offers and discounts</li>
               <li>✓ Analytics dashboard</li>
             </ul>
           </div>
@@ -172,19 +142,9 @@ export default function HomePage() {
       {/* CTA */}
       <div id="contact" className="bg-gray-900 text-white py-20">
         <div className="max-w-2xl mx-auto px-6 text-center">
-          <h2 className="text-3xl font-bold mb-4">
-            Ready to ditch the laminated menu?
-          </h2>
-          <p className="text-gray-400 mb-8">
-            Get in touch and we&apos;ll set up your restaurant in 10 minutes.
-          </p>
-          
-            href="https://wa.me/91YOURPHONE?text=Hi%2C%20I%20want%20to%20set%20up%20my%20restaurant%20menu"
-            target="_blank"
-            className="inline-block bg-green-500 hover:bg-green-600 text-white px-8 py-3.5 rounded-lg font-semibold text-lg"
-          >
-            WhatsApp Us
-          </a>
+          <h2 className="text-3xl font-bold mb-4">Ready to ditch the laminated menu?</h2>
+          <p className="text-gray-400 mb-8">Get in touch and we&apos;ll set up your restaurant in 10 minutes.</p>
+          <a href="https://wa.me/91YOURPHONE?text=Hi%2C%20I%20want%20to%20set%20up%20my%20restaurant%20menu" target="_blank" className="inline-block bg-green-500 hover:bg-green-600 text-white px-8 py-3.5 rounded-lg font-semibold text-lg">WhatsApp Us</a>
         </div>
       </div>
 
