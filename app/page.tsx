@@ -99,7 +99,7 @@ export default function HomePage() {
             ].map((feature) => (
               <div key={feature.title} className="bg-white p-6 rounded-xl border border-gray-100">
                 <span className="text-2xl">{feature.icon}</span>
-                <h3 className="font-semibold text-lg mt-3 mb-2">{feature.title}</h3>
+                <h3 className="font-semibold text-lg mt-3 mb-2 text-gray-900">{feature.title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed">{feature.desc}</p>
               </div>
             ))}
