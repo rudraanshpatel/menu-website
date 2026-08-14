@@ -144,7 +144,7 @@ export default function HomePage() {
         <div className="max-w-2xl mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to ditch the laminated menu?</h2>
           <p className="text-gray-400 mb-8">Get in touch and we&apos;ll set up your restaurant in 10 minutes.</p>
-          <a href="https://wa.me/91YOURPHONE?text=Hi%2C%20I%20want%20to%20set%20up%20my%20restaurant%20menu" target="_blank" className="inline-block bg-green-500 hover:bg-green-600 text-white px-8 py-3.5 rounded-lg font-semibold text-lg">WhatsApp Us</a>
+          <a href="https://wa.me/917000209485?text=Hi%2C%20I%20want%20to%20set%20up%20my%20restaurant%20menu" target="_blank" className="inline-block bg-green-500 hover:bg-green-600 text-white px-8 py-3.5 rounded-lg font-semibold text-lg">WhatsApp Us</a>
         </div>
       </div>
 
