@@ -213,7 +213,7 @@ export default function MenuPage({
 
         {/* Footer */}
         <div className="text-center py-6 text-xs text-gray-300">
-          Powered by Menu App
+          Powered by AllyMento
         </div>
       </div>
     </div>

@@ -6,7 +6,7 @@ export default function HomePage() {
       {/* Hero */}
       <div className="bg-gradient-to-br from-gray-900 to-gray-800 text-white">
         <nav className="max-w-5xl mx-auto px-6 py-5 flex justify-between items-center">
-          <span className="text-xl font-bold">Menu App</span>
+          <span className="text-xl font-bold">AllyMento</span>
           <a href="#contact" className="text-sm bg-white text-gray-900 px-4 py-2 rounded-lg font-medium hover:bg-gray-100">Get Started</a>
         </nav>
 
