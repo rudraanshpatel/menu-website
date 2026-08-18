@@ -107,38 +107,6 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* Pricing */}
-      <div className="max-w-5xl mx-auto px-6 py-20">
-        <h2 className="text-3xl font-bold text-center mb-4">Simple pricing</h2>
-        <p className="text-center text-gray-500 mb-12">Start free. Upgrade when you need more.</p>
-        <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-          <div className="border border-gray-200 rounded-2xl p-8">
-            <h3 className="font-semibold text-lg">Free</h3>
-            <p className="text-3xl font-bold mt-2">₹0</p>
-            <p className="text-gray-400 text-sm mt-1">forever</p>
-            <ul className="mt-6 space-y-3 text-sm text-gray-600">
-              <li>✓ 1 restaurant</li>
-              <li>✓ Unlimited menu items</li>
-              <li>✓ QR code</li>
-              <li>✓ WhatsApp sharing</li>
-            </ul>
-          </div>
-          <div className="border-2 border-green-500 rounded-2xl p-8 relative">
-            <span className="absolute -top-3 left-6 bg-green-500 text-white text-xs font-medium px-3 py-1 rounded-full">Popular</span>
-            <h3 className="font-semibold text-lg">Pro</h3>
-            <p className="text-3xl font-bold mt-2">₹299<span className="text-base font-normal text-gray-400">/mo</span></p>
-            <p className="text-gray-400 text-sm mt-1">per restaurant</p>
-            <ul className="mt-6 space-y-3 text-sm text-gray-600">
-              <li>✓ Everything in Free</li>
-              <li>✓ Multiple outlets</li>
-              <li>✓ Custom brand colors and logo</li>
-              <li>✓ Offers and discounts</li>
-              <li>✓ Analytics dashboard</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-
       {/* CTA */}
       <div id="contact" className="bg-gray-900 text-white py-20">
         <div className="max-w-2xl mx-auto px-6 text-center">
