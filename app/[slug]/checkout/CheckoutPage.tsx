@@ -87,7 +87,7 @@ export default function CheckoutPage({ restaurant }: { restaurant: Restaurant })
   };
 
   const upiLink = orderCode && restaurant.upi_id
-    ? `upi://pay?pa=${restaurant.upi_id}&pn=${restaurant.name}&am=${total.toFixed(2)}&cu=INR&tn=Order${orderCode}&mode=00`
+    ? `upi://pay?pa=${restaurant.upi_id}&pn=${restaurant.name}&am=${total.toFixed(2)}&cu=INR&tn=Order${orderCode}&mode=04`
     : null;
 
   // ── Payment screen (after order created) ──
