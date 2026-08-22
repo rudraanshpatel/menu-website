@@ -87,7 +87,7 @@ export default function CheckoutPage({ restaurant }: { restaurant: Restaurant })
   };
 
   const upiLink = orderCode && restaurant.upi_id
-    ? `upi://pay?pa=${encodeURIComponent(restaurant.upi_id)}&pn=${encodeURIComponent(restaurant.name)}&am=${total}&tn=Order${orderCode}&cu=INR`
+    ? `upi://pay?pa=${restaurant.upi_id}&am=${total}&tn=Order${orderCode}`
     : null;
 
   // ── Payment screen (after order created) ──
@@ -131,7 +131,7 @@ export default function CheckoutPage({ restaurant }: { restaurant: Restaurant })
           </div>
 
           {/* Pay button */}
-          
+
           <a href={upiLink}
             className="block w-full text-center py-4 rounded-xl text-white font-bold text-base"
             style={{ backgroundColor: accent }}
@@ -167,7 +167,7 @@ export default function CheckoutPage({ restaurant }: { restaurant: Restaurant })
       <div className="px-6 pt-10 pb-6" style={{ backgroundColor: accent }}>
         <div className="max-w-lg mx-auto flex items-center gap-3">
           <a href={`/${restaurant.slug}`} className="text-white/80 hover:text-white">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="m15 18-6-6 6-6" /></svg>
           </a>
           <h1 className="text-xl font-bold text-white">Checkout</h1>
         </div>
